@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Lab12._2</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Point\HTable.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PlantsLibrary">
+      <HintPath>..\PlantsLibrary\bin\Debug\net8.0\PlantsLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
